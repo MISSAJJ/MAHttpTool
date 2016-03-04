@@ -10,8 +10,9 @@
 @class MAUploadParam;
 @interface MAHttpTool : NSObject
 
+
 /**
- *  @author MISSAJJ, 更新日期: 16-03-02 14:03:54
+ *  @author MISSAJJ, 16-02-29 14:02:17
  *
  *   请求api  *****返回block***** 分为 post 和get 两种 请求方式
  *
@@ -28,7 +29,7 @@
         failure:(void (^)(NSError *error))failure;
 
 /**
- *  @author MISSAJJ, 16-03-02 14:03:54
+ *  @author MISSAJJ, 16-02-29 15:02:00
  *
  *  上传图片或者文件的请求
  *

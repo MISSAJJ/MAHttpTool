@@ -4,7 +4,24 @@
 
 `MISSAJJ`自己写的一个基于`AFNetworking`为内核的HTTP请求工具类 
 
- 
+
+
+###更新日期
+
+更新日期: 16-03-04 14:03:34
+
+1,增加HUD功能 [MAHUDTool](https://github.com/MISSAJJ/MAHUDTool) ,
+
+此工具类是将HUD提示框单独抽出一个单例工具类, 目前使用的是MBProgressHUD,后期如果项目需要换SVProgressHUD,JGProgressHUD等其他HUD,只需要在[MAHUDTool](https://github.com/MISSAJJ/MAHUDTool) 这个类里单独改写
+
+2,通过alert,处理返回的网络错误
+
+
+更新日期: 16-02-29 14:02:17
+
+提供参数httpMethod:(NSString *)method, 判断是 GET 还是 POST 请求
+
+
 
 ###前言
 
